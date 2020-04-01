@@ -6,11 +6,11 @@ It extends the dynamic semantics of a simple imperative language with known iter
 ## Prerequisites
 
 Ubuntu 19.10 or Windows operating system (with intellij-idea)
+
 > For Ubuntu:
 
 ```
 sudo snap install intellij-idea-ultimate --classic
-
 ```
 or
 ```
@@ -21,6 +21,7 @@ sudo snap install intellij-idea-community --classic
 ```
 sudo apt install openjdk-13-jdk
 ```
+
 You may also have to run:
 ```
 sudo apt install snapd 
@@ -29,13 +30,14 @@ but it's pre-installed on Ubuntu 16.04 (LTS) or later.
 
 
 ### Install ANTLR:
-> Open IntelliJ IDEA
+Open IntelliJ IDEA
+
 From the welcome window:
-> Configure > Plugins
-Search for 'antlr', then
-> Install (ANTLR v4 grammar plugin)
-> Accept
-> Restart IDE
+- Configure > Plugins
+- Search for 'antlr', then
+- Install (ANTLR v4 grammar plugin)
+- Accept
+- Restart IDE
 
 ## Authors
 
